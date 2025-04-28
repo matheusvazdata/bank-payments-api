@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Mac / Linux
+.DS_Store
+
+# Instance folders (Flask)
+instance/
+
+# Logs
+*.log
