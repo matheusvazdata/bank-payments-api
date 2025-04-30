@@ -5,11 +5,11 @@ class Pix:
     def __init__(self):
         pass
 
-    def create_payment(self, value):
+    def create_payment(self):
         """
         Create a new payment on the bank's system.
         """
-        bank_payment_id = uuid.uuid4()
+        bank_payment_id = str(uuid.uuid4())
 
         hash_payment = f'hash_payment_{bank_payment_id}'
 
